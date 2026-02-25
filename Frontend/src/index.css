@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-blue: #007AFF;
+  --bg-white: #FFFFFF;
+  --bg-gray: #F2F2F7;
+  --text-black: #000000;
+  --text-gray: #8E8E93;
+  --bg-sidebar: #F9F9F9;
+  --card-blue: #EBF5FF;
+  --card-macros: #F2F0FF;
+  --accent-orange: #FF9500;
+  --accent-pink: #FF2D55;
+  --accent-green: #34C759;
+  --border-color: #E5E5EA;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+  --primary-blue: #0A84FF;
+  --bg-white: #121214;
+  --bg-gray: #2C2C2E;
+  --text-black: #E5E5E7;
+  --text-gray: #98989D;
+  --bg-sidebar: #1C1C1E;
+  --card-blue: #1C1C1E;
+  --card-macros: #232325;
+  --accent-orange: #FF9F0A;
+  --accent-pink: #FF375F;
+  --accent-green: #30D158;
+  --border-color: #333333;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-white);
+  color: var(--text-black);
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex !important;
+  flex-direction: row !important;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--bg-white);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  background-color: var(--bg-white);
+}

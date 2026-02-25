@@ -1,0 +1,55 @@
+.water-tracker-card {
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.water-tracker-card .card-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-black);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 4px 0;
+}
+
+.tracker-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    color: var(--text-black);
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.cups-count {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.remaining-text {
+    font-size: 14px;
+    color: var(--text-gray);
+}
