@@ -13,13 +13,13 @@ Fitway is a modern, clean, and intuitive fitness tracking application that helps
 ## 📸 Screenshots
 
 ### Mobile Dashboard View
-![Mobile Dashboard View](../docs/main_page.jpg)
+![Mobile Dashboard View](../docs/main_page.png)
 
 ### Desktop / Expanded View
-![Desktop Expanded View](../docs/main_page_expanded.jpg)
+![Desktop Expanded View](../docs/main_page_expanded.png)
 
 ### Navigation Sidebar
-![Sidebar Navigation](../docs/sidebar.jpg)
+![Sidebar Navigation](../docs/sidebar.png)
 
 ## 🚀 Getting Started
 
