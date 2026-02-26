@@ -78,3 +78,9 @@
     color: var(--text-gray);
     margin-top: 4px;
 }
+
+@media (max-width: 480px) {
+    .summary-container {
+        flex-direction: column;
+    }
+}

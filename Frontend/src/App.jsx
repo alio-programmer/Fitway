@@ -126,7 +126,7 @@ function AppContent({ isLoggedIn, setIsLoggedIn, isDarkMode, toggleTheme }) {
           <div className="bottom-input-bar">
             <input
               type="text"
-              placeholder="What did you eat or exercise?"
+              placeholder="Track calories here !"
               className="chat-input"
             />
             <div className="input-actions">

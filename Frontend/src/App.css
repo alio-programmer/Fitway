@@ -153,3 +153,49 @@
 .action-btn:active {
   transform: scale(0.95);
 }
+
+@media (max-width: 480px) {
+  .dashboard-header {
+    padding: 12px 10px;
+  }
+
+  .header-left,
+  .header-right,
+  .header-actions {
+    gap: 8px;
+  }
+
+  .nav-login-btn.small {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+
+  .streak-badge {
+    gap: 2px;
+  }
+
+  .icon-button {
+    padding: 6px;
+  }
+
+  .current-date {
+    font-size: 20px;
+  }
+
+  .bottom-input-bar {
+    padding: 8px 8px 8px 12px;
+  }
+
+  .chat-input {
+    min-width: 0;
+  }
+
+  .input-actions {
+    gap: 4px;
+  }
+
+  .action-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
