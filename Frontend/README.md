@@ -1,16 +1,53 @@
-# React + Vite
+# Fitway 🏃‍♂️💦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fitway is a modern, clean, and intuitive fitness tracking application that helps you stay on top of your daily goals, macronutrients, and hydration. With a sleek UI and responsive design, Fitway adapts seamlessly from your desktop down to your mobile device.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Daily Goal Tracking**: Log your daily calorie intake and exercise to meet your net calorie goals.
+- **Macronutrients Breakdown**: Monitor your carbs, protein, and fat intake dynamically.
+- **Hydration Tracker**: Keep track of your daily water intake with a quick and interactive cup interface.
+- **Responsive Dashboard**: Beautiful light/dark mode UI designed for mobile and web.
+- **Intuitive Navigation**: Easily move across tools including weight tracking, calendar summaries, and settings using the accessible sidebar.
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Mobile Dashboard View
+![Mobile Dashboard View](../docs/main_page.jpg)
 
-## Expanding the ESLint configuration
+### Desktop / Expanded View
+![Desktop Expanded View](../docs/main_page_expanded.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Navigation Sidebar
+![Sidebar Navigation](../docs/sidebar.jpg)
+
+## 🚀 Getting Started
+
+Follow these steps to run the frontend application locally:
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd Frontend
+   ```
+
+2. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the Vite development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173/` to view the app.
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React + Vite
+- **Styling:** Custom CSS (Variables, Responsive Media Queries, Light/Dark Modes)
+- **Icons:** Lucide React
+
+## 📄 License
+
+This project is licensed under the MIT License.
